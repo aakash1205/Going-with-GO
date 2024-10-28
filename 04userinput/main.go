@@ -8,8 +8,11 @@ import (
 
 func main() {
 
+
 	welcome := "welcome to user input program"
 	fmt.Println(welcome)
+
+	// comma ok and comma error syntax
 	reader := bufio.NewReader(os.Stdin)
 	fmt.Println("Enter the rating of our pizza")
 	input, _ := reader.ReadString('\n')
