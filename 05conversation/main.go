@@ -14,7 +14,7 @@ func main() {
 	reader := bufio.NewReader(os.Stdin)
 	input, err := reader.ReadString('\n')
 	fmt.Println("Thanks for reading ", input)
-	numrating, err := strconv.ParseFloat(strings.TrimSpace(input), 64) // strings is a package 
+	numrating, err := strconv.ParseFloat(strings.TrimSpace(input), 64) // strings is a package
 	if err != nil {
 		fmt.Println(err)
 	} else {
